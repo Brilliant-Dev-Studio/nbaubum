@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import PageMotion from "./components/page-motion";
 import { useEffect, useRef, useState } from "react";
 
@@ -402,57 +403,48 @@ export default function Home() {
       </header>
 
       <main id="main">
-        <section className="hero" aria-labelledby="hero-title">
-          <picture>
-            <source
-              media="(max-width: 650px)"
-              srcSet="/images/bagan-hero-mobile.webp"
-            />
-            <Image
-              src="/images/bagan-hero.webp"
-              alt="Sunlit brick temples and golden pagodas across the green plains of Bagan"
-              fill
-              loading="eager"
-              fetchPriority="high"
-              quality={90}
-              sizes="100vw"
-              className="hero-image"
-            />
-          </picture>
-          <div className="hero-shade" />
-          <div className="hero-content">
-            <div className="eyebrow hero-eyebrow">
-              <span /> A DIFFERENT KIND OF JOURNEY
-            </div>
-            <h1 id="hero-title">
-              This is Myanmar.
-              <br />
-              This is <em>connection.</em>
-            </h1>
+        <section className="destination-hero" aria-labelledby="hero-title">
+          <nav className="hero-breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <a href="#journeys">Destinations</a>
+              </li>
+              <li aria-current="page">Myanmar</li>
+            </ol>
+          </nav>
+          <h1 id="hero-title">Myanmar tours &amp; holidays</h1>
+          <div className="destination-banner">
+            <picture>
+              <source
+                media="(max-width: 650px)"
+                srcSet="/images/bagan-golden-sunrise-mobile.webp"
+              />
+              <Image
+                src="/images/bagan-golden-sunrise.webp"
+                alt="Golden sunbeams break through clouds over misty Bagan, with a hot-air balloon above the landscape"
+                fill
+                loading="eager"
+                fetchPriority="high"
+                quality={90}
+                sizes="(max-width: 650px) calc(100vw - 40px), (max-width: 1660px) calc(100vw - 60px), 1600px"
+                className="destination-hero-image"
+              />
+            </picture>
+          </div>
+          <div className="destination-intro">
             <p>
-              Beyond the golden pagodas, a world of warm hearts.
-              <br className="desktop-break" /> Discover our home, through the
-              eyes of the people who know it best.
+              <strong>
+                Beyond the golden pagodas, a world of warm hearts.
+              </strong>{" "}
+              Discover our home through the eyes of the people who know it best.
+              Small groups, real encounters, and stories that stay with you.
             </p>
             <a href="#journeys" className="button button-gold">
               Find your Myanmar <Icon name="arrow" size={20} />
             </a>
-            <div className="hero-note">
-              <span className="note-line" /> Small groups. Real encounters. A
-              lasting difference.
-            </div>
-          </div>
-          <a href="#discover" className="hero-location">
-            <Icon name="pin" size={19} />
-            <span>
-              BAGAN, MYANMAR
-              <small>A thousand temples. A million stories.</small>
-            </span>
-          </a>
-          <div className="hero-index">
-            <span>21°10′ N</span>
-            <i />
-            94°52′ E
           </div>
         </section>
 
@@ -952,9 +944,16 @@ export default function Home() {
           <details className="photo-credits">
             <summary>Photography credits</summary>
             <p>
-              Myanmar photography via Wikimedia Commons. Cropped and resized for
-              this site.
+              Destination photography via Wikimedia Commons. Images cropped and
+              resized for this site.
             </p>
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Bagan_Myanmar_24288504713.jpg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Golden Bagan hero: Andrea Pepoli · CC BY 2.0
+            </a>
             <a
               href="https://commons.wikimedia.org/wiki/File:Bagan,_Burma.jpg"
               target="_blank"
@@ -967,7 +966,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              Bagan hero: gusjer · CC BY 2.0
+              Bagan panorama: gusjer · CC BY 2.0
             </a>
             <a
               href="https://commons.wikimedia.org/wiki/File:Inle_Lake,_Fisherman_in_boat,_Myanmar.jpg"

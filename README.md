@@ -32,6 +32,9 @@ Government entry and travel advice was reviewed on 27 September 2026 at https://
 
 ## Photography
 
+- Current hero, `bagan-golden-sunrise.webp` and `bagan-golden-sunrise-mobile.webp`: Andrea Pepoli, [Bagan Myanmar 24288504713](https://commons.wikimedia.org/wiki/File:Bagan_Myanmar_24288504713.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Desktop and mobile crops from the 6000 x 4000 original, resized and converted to WebP.
+- Previous hero, `myanmar-coast-hero.jpg`: [user-supplied KAYAK CDN photo](https://content.r9cdn.net/rimg/dimg/b9/fd/13d0a9f8-ctry-39-16bdda06657.jpg?crop=true&width=1366&height=768&xhint=0&yhint=0), downloaded at the supplied 1366 x 768 resolution. This image is separate from the Creative Commons assets listed below.
+- `inle-hero.webp` and `inle-hero-mobile.webp`: Vyacheslav Argenberg, [Inle Lake, Fisherman in boat, Myanmar](https://commons.wikimedia.org/wiki/File:Inle_Lake,_Fisherman_in_boat,_Myanmar.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Desktop (3840px) and mobile (1200px) crops from the 4000px original.
 - `bagan-hero.webp` and `bagan-hero-mobile.webp`: gusjer, [Bagan panorama2](https://commons.wikimedia.org/wiki/File:Bagan_panorama2.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Separate desktop (3840px) and mobile (1200px) crops from the 11199px original.
 - `bagan.webp`: Corto Maltese 1999, [Bagan, Burma](https://commons.wikimedia.org/wiki/File:Bagan,_Burma.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 - `inle.webp`: Vyacheslav Argenberg, [Inle Lake, Fisherman in boat, Myanmar](https://commons.wikimedia.org/wiki/File:Inle_Lake,_Fisherman_in_boat,_Myanmar.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
